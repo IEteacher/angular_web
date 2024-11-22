@@ -1,0 +1,10 @@
+<div id="formulario">
+    <form action="">
+        <label for="">Usuario:</label>
+        <input #nombre id="nombre" type="text" placeholder="Ingrese su nombre">
+        <label for="">Contraseña:</label>
+        <input id="pass" type="text" placeholder="Ingrese su pais">
+        <input id="send" type="button" value="Ingresar" (click)="validar(nombre.value)">
+        <div id="output">{{msg}}</div>
+    </form>
+</div>
